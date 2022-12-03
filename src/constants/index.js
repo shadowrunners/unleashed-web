@@ -1,4 +1,4 @@
-import { instagram, music, send, shield } from "../assets";
+import { music, send, shield } from "../assets";
 
 export const navLinks = [
   {
@@ -70,13 +70,5 @@ export const footerLinks = [
         link: "https://www.edgeplaceholder.com/terms-and-services/",
       },
     ],
-  },
-];
-
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/scr3ppie",
   },
 ];

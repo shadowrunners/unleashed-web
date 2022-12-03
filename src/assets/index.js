@@ -5,6 +5,5 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import instagram from "./instagram.svg";
 
-export { evelyn, logo, send, shield, menu, music, close, instagram };
+export { evelyn, logo, send, shield, menu, music, close };
