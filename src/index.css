@@ -19,6 +19,10 @@
   -ms-overflow-style: none;
 }
 
+.background-test {
+  background: linear-gradient(to bottom, blue, black);
+}
+
 .text-gradient {
   background: linear-gradient(to right, rgb(174, 28, 28), rgb(167, 139, 250), rgb(132, 10, 74));
   -webkit-background-clip: text;

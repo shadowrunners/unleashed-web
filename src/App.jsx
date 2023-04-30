@@ -6,23 +6,25 @@ import {
   Footer,
   Hero,
   Navbar,
+  Stats,
 } from "./components";
+import React from 'react';
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="bg-black w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxNav}`}>
         <Navbar />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Features /> <Developers />
+        <Stats /> <Features /> <Developers />
         <CTA />
         <Footer />
       </div>
