@@ -2,7 +2,7 @@ import styles from "../style";
 
 const Developers = () => (
   <section
-    id="clients"
+    id="developers"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
@@ -12,12 +12,11 @@ const Developers = () => (
         And it's all developed
         <br className="sm:block hidden" /> by one single person.
       </h2>
-      <div className="w-full md:mt-0 mt-6">
+      <div className="w-full md:mt-0 mt-6 md:ml-60">
         <p
           className={`${styles.paragraph} text-left md:flex-row max-w-[450px]`}
         >
-          A single person was able to build all of this? Yes, they were. With
-          code, the impossible becomes possible.
+          Despite being a team of one, the developer has poured their heart and soul into Evelyn to create a powerful and reliable Discord bot that will elevate your server experience.
         </p>
       </div>
     </div>
@@ -25,7 +24,7 @@ const Developers = () => (
     <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
       <div className="flex flex-row">
         <img
-          src="https://cdn.discordapp.com/avatars/292743562213457920/2b5beacd7983a3024aac45825ffa86cb.png?size=1024"
+          src="https://cdn.discordapp.com/avatars/292743562213457920/0c6cfd5ddc827021bd2f0ed6a5f72bea.webp?size=512"
           className="h-[75px] w-[75px] rounded-full"
         />
 
