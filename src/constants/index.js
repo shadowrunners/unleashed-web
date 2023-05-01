@@ -1,8 +1,6 @@
 import { music, send, shield } from "../assets";
 import axios from 'axios';
 
-
-
 export const navLinks = [
   {
     id: "home",
@@ -13,7 +11,7 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "clients",
+    id: "developers",
     title: "Developers",
   },
 ];
@@ -29,34 +27,16 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "Dashboard",
+    title: "Overwatch",
     content:
-      "With our intuitive dashboard, you will be able to customize the modules to your heart's content at any time.",
+      "Introducing Overwatch - the ultimate moderation toolkit. With anti-toxicity, anti-scamming, logging and verification systems, keep your server safe and healthy with ease.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Welcome / Goodbye messages",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Active Users",
-    value: "N/A",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted Servers",
-    value: "N/A",
-  },
-  {
-    id: "stats-3",
-    title: "Replace this before shipping",
-    value: "$69M+",
+      "Say hello and farewell in style with Evelyn's customizable welcome and goodbye system for Discord, featuring fully customizable embeds and messages.",
   },
 ];
 
