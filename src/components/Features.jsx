@@ -32,8 +32,7 @@ const Features = () => (
         over your server.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With Evelyn's abilities, you will experience Discord at its best with an
-        intuitive dashboard and more features than ever.
+        Supercharge your Discord experience to a new level with Evelyn's powerful toolkit, packed with an array of exciting features!
       </p>
 
       <Button styles={`mt-10`} />
