@@ -21,6 +21,8 @@ const Hero = () => {
   return (
   <section id="home" className={`flex md:flex-row flex-col h-screen`}>
     <img src={background} className="absolute inset-0 w-full h-full object-cover opacity-40 z-0" />
+    <div className="absolute bottom-0 h-[270px] w-full xl:left-[0px] bg-gradient-to-b from-transparent to-black" />
+
     <div
       className={`flex-1 ${styles.flexCenter} xl:mb-[140px] flex-col xl:px-0 sm:px-16 px-6 relative`}
     >
@@ -53,7 +55,6 @@ const Hero = () => {
           </motion.div>
         </AnimatePresence>
     </div>
-    <div className="absolute bottom-0 h-[270px] w-full xl:left-[0px] bg-gradient-to-b from-transparent to-black"></div>
   </section>
   )
 }
