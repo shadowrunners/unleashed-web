@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import React from "react";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
-          src={toggle ? close : menu}
+          src='https://cdn.evelynbot.ml/upload/v1683318452/evelyn/menu.svg'
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prev) => !prev)}

@@ -1,5 +1,6 @@
-import styles from "../style";
+import { styles } from "../style";
 import Button from "./Button";
+import React from "react";
 
 const CTA = () => (
   <section

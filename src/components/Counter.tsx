@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import React from "react";
 
 /**
  * Courtesy of driaug.
@@ -7,11 +8,15 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
  * @param root0
  * @param root0.value
  */
+
 export default function Counter({
     value,
     direction = "up",
+  }: {
+    value: number;
+    direction?: "up" | "down";
   }) {
-    const ref = useRef(null);
+    const ref = useRef<HTMLSpanElement>(null);
     const motionValue = useMotionValue(direction === "down" ? value : 0);
     const springValue = useSpring(motionValue, {
       damping: 100,

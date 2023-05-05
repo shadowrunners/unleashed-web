@@ -1,4 +1,4 @@
-const styles = {
+export const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
   boxNav: "xl:max-w-[1920px] w-full",
 
@@ -16,7 +16,6 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
-
 };
 
 export const layout = {
@@ -28,5 +27,3 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
-
-export default styles;

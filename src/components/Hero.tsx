@@ -1,26 +1,26 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { background } from '../assets/index'
-import styles from "../style";
+import { styles } from "../style";
 import Button from "./Button";
 import { useState, useRef, useEffect } from 'react';
+import React from "react";
 
 const Hero = () => {
   const [inView, setInView] = useState(false);
-  const ref = useRef(null);
-
+  const ref = useRef<HTMLDivElement | null>(null);
+  
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       setInView(entry.isIntersecting);
     }, { threshold: 0.5 });
-    observer.observe(ref.current);
+    if (ref.current) observer.observe(ref.current);
     return () => {
-      observer.unobserve(ref.current);
+      if (ref.current) observer.unobserve(ref.current);
     };
   }, []);
 
   return (
   <section id="home" className={`flex md:flex-row flex-col h-screen`}>
-    <img src={background} className="absolute inset-0 w-full h-full object-cover opacity-40 z-0" />
+    <img src='https://cdn.evelynbot.ml/upload/v1683318452/evelyn/shadowlyn.webp' className="absolute inset-0 w-full h-full object-cover opacity-40 z-0" />
     <div className="absolute bottom-0 h-[270px] w-full xl:left-[0px] bg-gradient-to-b from-transparent to-black" />
 
     <div

@@ -1,4 +1,5 @@
-import styles from "../style";
+import { styles } from "../style";
+import React from "react";
 
 const Developers = () => (
   <section

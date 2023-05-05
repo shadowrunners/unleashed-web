@@ -1,4 +1,4 @@
-import styles from "./style";
+import { styles } from "./style";
 import {
   CTA,
   Developers,
@@ -8,7 +8,7 @@ import {
   Navbar,
   Stats,
 } from "./components";
-import React from 'react';
+import React from "react";
 
 const App = () => (
   <div className="bg-black w-full overflow-hidden">

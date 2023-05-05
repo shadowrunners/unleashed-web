@@ -2,19 +2,20 @@ import { useState, useEffect, useRef } from "react";
 import Counter from '../components/Counter'
 import { motion } from "framer-motion";
 import { get } from 'superagent';
-import styles from "../style";
+import { styles } from "../style";
+import React from "react";
 
 const Stats = () => {
     const [inView, setInView] = useState(false);
-    const ref = useRef(null);
+    const ref = useRef<HTMLDivElement | null>(null);
   
     useEffect(() => {
       const observer = new IntersectionObserver(([entry]) => {
         setInView(entry.isIntersecting);
       }, { threshold: 0.5 });
-      observer.observe(ref.current);
+      if (ref.current) observer.observe(ref.current);
       return () => {
-        observer.unobserve(ref.current);
+        if (ref.current) observer.unobserve(ref.current);
       };
     }, []);
 

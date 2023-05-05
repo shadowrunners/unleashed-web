@@ -1,6 +1,3 @@
-import { music, send, shield } from "../assets";
-import axios from 'axios';
-
 export const navLinks = [
   {
     id: "home",
@@ -19,24 +16,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: music,
+    icon: 'https://cdn.evelynbot.ml/upload/v1683318453/evelyn/music.png',
     title: "Music",
     content:
       "With the music module, you can make your gaming sessions inside voice channels even more enjoyable. You can play music from numerous platforms such as Deezer, Spotify and more!",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: 'https://cdn.evelynbot.ml/upload/v1683318453/evelyn/shield.png',
     title: "Overwatch",
     content:
       "Introducing Overwatch - the ultimate moderation toolkit. With anti-toxicity, anti-scamming, logging and verification systems, keep your server safe and healthy with ease.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: 'https://cdn.evelynbot.ml/upload/v1683318453/evelyn/send.png',
     title: "Welcome / Goodbye messages",
     content:
-      "Say hello and farewell in style with Evelyn's customizable welcome and goodbye system for Discord, featuring fully customizable embeds and messages.",
+      "Say hello and farewell in style with Evelyn's customizable welcome and goodbye system, featuring fully customizable embeds and messages.",
   },
 ];
 
