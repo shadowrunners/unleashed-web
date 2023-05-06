@@ -1,4 +1,4 @@
-import background from './background.webp';
+import background from "./background.webp";
 import evelyn from "./evelyn.png";
 import logo from "./test.svg";
 import music from "./music.png";

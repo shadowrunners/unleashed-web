@@ -24,7 +24,12 @@
 }
 
 .text-gradient {
-  background: linear-gradient(to right, rgb(174, 28, 28), rgb(167, 139, 250), rgb(132, 10, 74));
+  background: linear-gradient(
+    to right,
+    rgb(174, 28, 28),
+    rgb(167, 139, 250),
+    rgb(132, 10, 74)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

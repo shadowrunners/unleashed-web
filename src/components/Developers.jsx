@@ -16,7 +16,9 @@ const Developers = () => (
         <p
           className={`${styles.paragraph} text-left md:flex-row max-w-[450px]`}
         >
-          Despite being a team of one, the developer has poured their heart and soul into Evelyn to create a powerful and reliable Discord bot that will elevate your server experience.
+          Despite being a team of one, the developer has poured their heart and
+          soul into Evelyn to create a powerful and reliable Discord bot that
+          will elevate your server experience.
         </p>
       </div>
     </div>
