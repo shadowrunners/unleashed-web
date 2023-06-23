@@ -7,6 +7,11 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar relative z-10">
+        <img
+          src='https://i.imgur.com/Ivp3uW4.png'
+          alt="evelyn"
+          className="w-[128px] h-[128px] object-contain"
+        />
       <ul className="list-none sm:flex hidden justify-end flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -22,7 +27,7 @@ const Navbar = () => {
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
-          src='https://cdn.evelynbot.ml/upload/v1683318452/evelyn/menu.svg'
+          src='https://cdn.evelynbot.ml/upload/q_auto/menu.svg'
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prev) => !prev)}

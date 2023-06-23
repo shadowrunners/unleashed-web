@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <img
-          src=''
+          src='https://cdn.evelynbot.ml/upload/q_auto/evl_logo.webp'
           alt="evelyn"
           className="w-[128px] h-[128px] object-contain"
         />
@@ -40,6 +40,14 @@ const Footer = () => (
             </ul>
           </div>
         ))}
+      </div>
+      <div>
+        <ul>
+          <img src="https://cdn.evelynbot.ml/upload/q_auto/pwrdbyvercel.svg" alt="vercel" className="mb-2" />
+          <img src="https://cdn.evelynbot.ml/upload/q_auto/pwrdbycfworkers.webp" alt="cfworkers" className="mb-2" />
+          <img src="https://cdn.evelynbot.ml/upload/q_auto/pwrdbycldnry.webp" alt="cldnry" />
+        </ul>
+        
       </div>
     </div>
 

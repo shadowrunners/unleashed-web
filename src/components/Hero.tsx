@@ -1,8 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { styles } from "../style";
 import Button from "./Button";
-import { useState, useRef, useEffect } from 'react';
-import React from "react";
+import React, { useState, useRef, useEffect } from 'react';
 
 const Hero = () => {
   const [inView, setInView] = useState(false);
@@ -20,11 +19,11 @@ const Hero = () => {
 
   return (
   <section id="home" className={`flex md:flex-row flex-col h-screen`}>
-    <img src='https://cdn.evelynbot.ml/upload/v1683318452/evelyn/shadowlyn.webp' className="absolute inset-0 w-full h-full object-cover opacity-40 z-0" />
+    <img src='https://res.cloudinary.com/shadowrunners/image/upload/q_auto/evelyn/shadowlyn.webp' className='absolute inset-0 w-full h-full object-cover opacity-40 z-0' alt='coolbg' />
     <div className="absolute bottom-0 h-[270px] w-full xl:left-[0px] bg-gradient-to-b from-transparent to-black" />
 
     <div
-      className={`flex-1 ${styles.flexCenter} xl:mb-[140px] flex-col xl:px-0 sm:px-16 px-6 relative`}
+      className={`flex-1 ${styles.flexCenter} xl:mb-[140px] flex-col xl:px-0 sm:px-16 px-6 relative mt-[-200px]`}
     >
         <AnimatePresence>
           <motion.h1
